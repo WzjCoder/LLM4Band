@@ -1,5 +1,13 @@
 # LLM4Band
 This repository contains the source code for the paper "[LLM4Band: Enhancing Reinforcement Learning with Large Language Models for Accurate Bandwidth Estimation](https://dl.acm.org/doi/10.1145/3712678.3721880)".
+# Citation
+@inproceedings{wang2025llm4band,
+  title={LLM4Band: Enhancing Reinforcement Learning with Large Language Models for Accurate Bandwidth Estimation},
+  author={Wang, Zhijian and Lu, Rongwei and Zhang, Zhiyang and Westphal, Cedric and He, Dongbiao and Jiang, Jingyan},
+  booktitle={Proceedings of the 35th Workshop on Network and Operating System Support for Digital Audio and Video},
+  pages={43--49},
+  year={2025}
+}
 # Acknowledgments
 - [RL4BandwidthEstimationChallenge](https://github.com/microsoft/RL4BandwidthEstimationChallenge) - dataset
 - [AlphaRTC](https://github.com/OpenNetLab/AlphaRTC) - simulation platform
