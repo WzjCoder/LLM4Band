@@ -11,6 +11,5 @@ This repository contains the source code for the paper "[LLM4Band: Enhancing Rei
 # Acknowledgments
 - [RL4BandwidthEstimationChallenge](https://github.com/microsoft/RL4BandwidthEstimationChallenge) - dataset
 - [AlphaRTC](https://github.com/OpenNetLab/AlphaRTC) - simulation platform
-- [BoB](https://github.com/NUStreaming/BoB)
-- [Schaferct](https://github.com/n13eho/Schaferct)
-- [NAORL](https://github.com/bytedance/offline-RL-congestion-control)
+- [NAORL](https://github.com/bytedance/offline-RL-congestion-control), [CORL](https://github.com/tinkoff-ai/CORL), [HuggingFace](https://huggingface.co/) - tools
+- [BoB](https://github.com/NUStreaming/BoB), [Schaferct](https://github.com/n13eho/Schaferct) - baselines
