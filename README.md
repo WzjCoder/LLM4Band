@@ -3,6 +3,8 @@ This repository contains the source code for the paper "[LLM4Band: Enhancing Rei
 
 # How to use?
 ## Offline training
+- Download the dataset from RL4BandwidthEstimationChallenge, download the pre-trained model from huggingface.
+- Split the dataset and preprocess the data (pickle format).
 ## Offline test
 ## Online application
 # Citation
