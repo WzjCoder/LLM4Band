@@ -3,7 +3,7 @@ This repository contains the source code for the paper "[LLM4Band: Enhancing Rei
 
 # How to use?
 ## Offline training
-- Download the dataset from RL4BandwidthEstimationChallenge, download the pre-trained model from huggingface.
+- Download the dataset from [RL4BandwidthEstimationChallenge]((https://github.com/microsoft/RL4BandwidthEstimationChallenge)), download the pre-trained model from [huggingface](https://huggingface.co/)([gpt2](https://huggingface.co/openai-community/gpt2), [t5](https://huggingface.co/google-t5/t5-base), [qwen](https://huggingface.co/Qwen/Qwen1.5-0.5B)).
 - Split the dataset and preprocess the data (pickle format).
 ## Offline test
 ## Online application
