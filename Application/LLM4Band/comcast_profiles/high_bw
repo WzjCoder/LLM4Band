@@ -1,0 +1,4 @@
+rate 2000
+delay 50
+loss 1
+wait 300s
