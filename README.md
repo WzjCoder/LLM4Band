@@ -10,9 +10,12 @@ This repository contains the source code for the paper "[LLM4Band: Enhancing Rei
 - Prepare offline testing scenario in `validation/prepare_scenario`, evaluate the model in `validation/evaluate`.
 ## Online application
 - Limit port traffic, run: modprobe sch_netem
+
         modprobe sch_htb
+  
         docker run --rm -it -v $(pwd)/LLM4Band:/app -w /app -e PYTHONPATH=/usr/lib/python3/dist-packages --name alphartc4band --cap-add=NET_ADMIN alphartc4band
 - Entering the container, run: sudo /root/go/bin/comcast --device lo --target-port 8000 --target-bw 200 --latency 50 --packet-loss 1
+  
                               peerconnection_serverless receiver_pyinfer.json
 - Stop: comcast --device lo --stop
 - Perform the test task in another terminal：docker exec alphartc4band peerconnection_serverless sender_pyinfer.json
