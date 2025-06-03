@@ -9,6 +9,7 @@ This repository contains the source code for the paper "[LLM4Band: Enhancing Rei
 ## Offline testing
 - Prepare offline testing scenario in `validation/prepare_scenario`, evaluate the model in `validation/evaluate`.
 ## Online application
+- Download link for the docker image: [alphartc4band]()
 - Limit port traffic, run:
   
         modprobe sch_netem
