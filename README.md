@@ -34,6 +34,7 @@ This repository contains the source code for the paper "[LLM4Band: Enhancing Rei
   
           docker run --rm -v `pwd`/LLM4Band:/app -w /app/metrics --name eval alphartc4band python3 eval_network.py --dst_network_log /app/logging/webrtc.log --output /app/result/out_eval_network.json --ground_recv_rate 500 --max_delay 500
 # Citation
+```bibtex
 @inproceedings{wang2025llm4band,
   title={LLM4Band: Enhancing Reinforcement Learning with Large Language Models for Accurate Bandwidth Estimation},
   author={Wang, Zhijian and Lu, Rongwei and Zhang, Zhiyang and Westphal, Cedric and He, Dongbiao and Jiang, Jingyan},
@@ -41,6 +42,7 @@ This repository contains the source code for the paper "[LLM4Band: Enhancing Rei
   pages={43--49},
   year={2025}
 }
+```
 # Acknowledgments
 - [RL4BandwidthEstimationChallenge](https://github.com/microsoft/RL4BandwidthEstimationChallenge) - dataset
 - [AlphaRTC](https://github.com/OpenNetLab/AlphaRTC) - simulation platform
